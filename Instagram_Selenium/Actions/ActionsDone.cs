@@ -35,5 +35,21 @@ namespace Instagram_Selenium.Actions
             System.Threading.Thread.Sleep(8000);
 
         }
+        public static void keys(IWebDriver driver)
+        {
+            IWebElement MyElement = driver.FindElement(By.XPath("//*[@class='_2dbep qNELH']"));
+            System.Threading.Thread.Sleep(500);
+            MyElement.SendKeys(Keys.ArrowDown);
+            MyElement.SendKeys(Keys.Enter);
+            System.Threading.Thread.Sleep(500);
+
+        }
+        public static void TakeScreenshotOfInsta(IWebDriver driver)
+        {
+            ITakesScreenshot screenshotDriver = driver as ITakesScreenshot;
+            Screenshot screenshot = screenshotDriver.GetScreenshot();
+            screenshot.SaveAsFile(@"C:\Users\lavanya.g\source\repos\Instagram_Selenium\Instagram_Selenium\Screenshots\.jpg");
+            System.Threading.Thread.Sleep(1000);
+        }
     }
 }

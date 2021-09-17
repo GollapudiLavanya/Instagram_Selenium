@@ -17,6 +17,8 @@ namespace Instagram_Selenium
         {
             Actions.ActionsDone.AssertAfterLauching(driver);
             Actions.ActionsDone.LoginToInstagram(driver);
+            Actions.ActionsDone.keys(driver);
+            Actions.ActionsDone.TakeScreenshotOfInsta(driver);
         }
     }
 }
