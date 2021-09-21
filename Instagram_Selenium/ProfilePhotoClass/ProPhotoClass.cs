@@ -60,7 +60,7 @@ namespace Instagram_Selenium.ProfilePhotoClass
             log.Info("Profile Photo Uploaded Successfully");
             System.Threading.Thread.Sleep(1000);
 
-            Assert.AreEqual(pic.UploadPhoto,@"C:\Users\lavanya.g\Pictures\Saved Pictures\Flower.jpg");
+            //Assert.AreEqual(pic.UploadPhoto,@"C:\Users\lavanya.g\Pictures\Saved Pictures\Flower.jpg");
         }
 
     }
