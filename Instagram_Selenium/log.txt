@@ -152,3 +152,7 @@
 2021-09-21 15:04:15,819 DEBUG navigating to url
 2021-09-21 15:04:15,819 INFO Exiting setup
 2021-09-21 15:04:43,253 INFO Profile Photo Uploaded Successfully
+2021-09-21 15:08:13,140 INFO Entering Setup
+2021-09-21 15:08:17,800 DEBUG navigating to url
+2021-09-21 15:08:17,800 INFO Exiting setup
+2021-09-21 15:08:45,676 INFO Profile Photo Uploaded Successfully
