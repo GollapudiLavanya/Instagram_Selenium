@@ -1,4 +1,10 @@
-﻿using OpenQA.Selenium;
+﻿/*
+ * project = InstagramUsingPageFactoryAndAutoIT
+ * Author = Lavanya Gollapudi
+ * Created Date = 20/09/2021
+ */
+
+using OpenQA.Selenium;
 using SeleniumExtras.PageObjects;
 using System;
 using System.Collections.Generic;

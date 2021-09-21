@@ -13,25 +13,23 @@ namespace Instagram_Selenium
 {
     public class Tests : Base.BaseClass
     {
-        //ExtentReports report = ReportCreation.report();
-        //ExtentTest test;
-        //[Test]
-        //public void InputEmailAndPassword()
-        //{
-        //    //test = report.CreateTest("Tests");
-        //    //test.Log(Status.Info, "INSTAGRAMAUTOMATION");
+        ExtentReports report = ReportCreation.report();
+        ExtentTest test;
+        [Test]
+        public void InputEmailAndPassword()
+        {
+            test = report.CreateTest("Tests");
+            test.Log(Status.Info, "INSTAGRAMAUTOMATION");
 
-        //    ////Actions.ActionsDone.AssertAfterLauching(driver);
+            Actions.ActionsDone.AssertAfterLauching(driver);
 
-        //    ////Actions.ActionsDone.LoginToInstagram(driver);
+            Actions.ActionsDone.LoginToInstagram(driver);
 
-        //    ////Actions.ActionsDone.keys(driver);
+            Actions.ActionsDone.TakeScreenshotOfInsta(driver);
 
-        //    ////Actions.ActionsDone.TakeScreenshotOfInsta(driver);
-
-        //    //test.Log(Status.Pass, "TestCases Passed");
-        //    //report.Flush();
-        //}
+            test.Log(Status.Pass, "TestCases Passed");
+            report.Flush();
+        }
 
         [Test]
         public void ProfilePhotoUpdate()

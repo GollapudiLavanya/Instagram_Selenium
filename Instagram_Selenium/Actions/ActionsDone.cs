@@ -23,6 +23,7 @@ namespace Instagram_Selenium.Actions
         }
         public static void LoginToInstagram(IWebDriver driver)
         {
+
             login = new Login_page(driver);
 
             login.UN.SendKeys("ucs17139@rmd.ac.in");
@@ -35,11 +36,7 @@ namespace Instagram_Selenium.Actions
             System.Threading.Thread.Sleep(1000);
 
         }
-        public static void keys(IWebDriver driver)
-        {
-            IWebElement MyElement = driver.FindElement(By.XPath("//*[@class='_8-yf5 ']"));
-            System.Threading.Thread.Sleep(300);
-        }
+
         public static void TakeScreenshotOfInsta(IWebDriver driver)
         {
             ITakesScreenshot screenshotDriver = driver as ITakesScreenshot;
