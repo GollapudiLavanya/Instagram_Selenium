@@ -1,5 +1,5 @@
 ﻿/*
- * project = InstagramUsingPageFactory
+ * project = InstagramUsingPageFactoryAndLog4Net
  * Author = Lavanya Gollapudi
  * Created Date = 15/09/2021
  */
@@ -26,23 +26,19 @@ namespace Instagram_Selenium.Actions
             login = new Login_page(driver);
 
             login.UN.SendKeys("ucs17139@rmd.ac.in");
-            System.Threading.Thread.Sleep(6000);
+            System.Threading.Thread.Sleep(1000);
 
             login.PW.SendKeys("123456789ABCDHELLO");
-            System.Threading.Thread.Sleep(6000);
+            System.Threading.Thread.Sleep(1000);
 
             login.loginButton.Click();
-            System.Threading.Thread.Sleep(8000);
+            System.Threading.Thread.Sleep(1000);
 
         }
         public static void keys(IWebDriver driver)
         {
-            IWebElement MyElement = driver.FindElement(By.XPath("//*[@class='_2dbep qNELH']"));
-            System.Threading.Thread.Sleep(500);
-            MyElement.SendKeys(Keys.ArrowDown);
-            MyElement.SendKeys(Keys.Enter);
-            System.Threading.Thread.Sleep(500);
-
+            IWebElement MyElement = driver.FindElement(By.XPath("//*[@class='_8-yf5 ']"));
+            System.Threading.Thread.Sleep(300);
         }
         public static void TakeScreenshotOfInsta(IWebDriver driver)
         {

@@ -1,5 +1,5 @@
 ﻿/*
- * project = InstagramUsingPageFactory
+ * project = InstagramUsingPageFactoryAndLog4Net
  * Author = Lavanya Gollapudi
  * Created Date = 15/09/2021
  */
@@ -34,9 +34,14 @@ namespace Instagram_Selenium.Base
             log4net.Config.XmlConfigurator.Configure(repository, fileInfo);
 
             log.Info("Entering Setup");
-            driver = new ChromeDriver();
-            driver.Manage().Window.Maximize();
+
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.AddArgument("start-maximized");
+            chromeOptions.AddArgument("--disable-notifications");
+
+            driver = new ChromeDriver(chromeOptions);
             driver.Url = "https://www.instagram.com/";
+
             log.Debug("navigating to url");
 
             log.Info("Exiting setup");
