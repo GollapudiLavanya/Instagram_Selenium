@@ -9,12 +9,14 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using SeleniumExtras.PageObjects;
+using log4net;
 
 namespace Instagram_Selenium.Actions
 {
     public class ActionsDone
     {
         public static Login_page login;
+        private static readonly ILog log = LogManager.GetLogger(typeof(Tests));
         public static void AssertAfterLauching(IWebDriver driver)
         {
             string title1 = "Instagram";
@@ -34,6 +36,11 @@ namespace Instagram_Selenium.Actions
 
             login.loginButton.Click();
             System.Threading.Thread.Sleep(1000);
+
+            log.Info("Loggin Succesfull");
+            System.Threading.Thread.Sleep(1000);
+
+            Assert.AreEqual(driver.Url, "https://www.instagram.com/");
 
         }
 

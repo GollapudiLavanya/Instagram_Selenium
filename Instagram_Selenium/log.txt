@@ -136,3 +136,19 @@
 2021-09-21 10:38:55,382 INFO Entering Setup
 2021-09-21 10:38:58,975 DEBUG navigating to url
 2021-09-21 10:38:58,976 INFO Exiting setup
+2021-09-21 14:43:57,018 INFO Entering Setup
+2021-09-21 14:44:03,740 DEBUG navigating to url
+2021-09-21 14:44:03,741 INFO Exiting setup
+2021-09-21 14:44:07,897 INFO Loggin Succesfull
+2021-09-21 14:54:51,899 INFO Entering Setup
+2021-09-21 14:54:56,200 DEBUG navigating to url
+2021-09-21 14:54:56,200 INFO Exiting setup
+2021-09-21 14:55:22,754 INFO Profile Photo Uploaded Successfully
+2021-09-21 15:02:54,467 INFO Entering Setup
+2021-09-21 15:02:59,183 DEBUG navigating to url
+2021-09-21 15:02:59,183 INFO Exiting setup
+2021-09-21 15:03:26,804 INFO Profile Photo Uploaded Successfully
+2021-09-21 15:04:11,238 INFO Entering Setup
+2021-09-21 15:04:15,819 DEBUG navigating to url
+2021-09-21 15:04:15,819 INFO Exiting setup
+2021-09-21 15:04:43,253 INFO Profile Photo Uploaded Successfully
