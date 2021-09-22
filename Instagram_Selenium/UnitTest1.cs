@@ -27,7 +27,10 @@ namespace Instagram_Selenium
 
             Actions.ActionsDone.TakeScreenshotOfInsta(driver);
 
+            test.Info("InstaScreenshot", MediaEntityBuilder.CreateScreenCaptureFromPath(@"C:\Users\lavanya.g\source\repos\Instagram_Selenium\Instagram_Selenium\Screenshots\.jpg").Build());
+
             test.Log(Status.Pass, "TestCases Passed");
+
             report.Flush();
         }
 
@@ -35,6 +38,13 @@ namespace Instagram_Selenium
         public void ProfilePhotoUpdate()
         {
             ProfilePhotoClass.ProPhotoClass.photoUpload(driver);
+        }
+
+        [Test]
+        public void gmailLogin()
+        {
+            GmailActions.GmailActionsClass.AssertAfterLauchingGmail(driver);
+            GmailActions.GmailActionsClass.LoginToGmail(driver);
         }
     }
 }

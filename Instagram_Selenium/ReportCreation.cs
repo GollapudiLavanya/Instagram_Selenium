@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
+using OpenQA.Selenium;
 
 namespace Instagram_Selenium
 {
@@ -38,7 +39,5 @@ namespace Instagram_Selenium
             }
             return extent;
         }
-
-
     }
 }

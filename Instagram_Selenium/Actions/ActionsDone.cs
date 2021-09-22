@@ -40,7 +40,7 @@ namespace Instagram_Selenium.Actions
             log.Info("Loggin Succesfull");
             System.Threading.Thread.Sleep(1000);
 
-            Assert.AreEqual(driver.Url, "https://www.instagram.com/");
+            Assert.AreEqual(driver.Url, "https://www.instagram.com/accounts/onetap/?next=%2F");
 
         }
 
