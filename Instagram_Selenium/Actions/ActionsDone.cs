@@ -10,6 +10,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using SeleniumExtras.PageObjects;
 using log4net;
+using System;
 
 namespace Instagram_Selenium.Actions
 {
@@ -25,22 +26,32 @@ namespace Instagram_Selenium.Actions
         }
         public static void LoginToInstagram(IWebDriver driver)
         {
+            try
+            {
 
-            login = new Login_page(driver);
+                login = new Login_page(driver);
 
-            login.UN.SendKeys("ucs17139@rmd.ac.in");
-            System.Threading.Thread.Sleep(1000);
+                login.UN.SendKeys("ucs17139@rmd.ac.in");
+                System.Threading.Thread.Sleep(1000);
 
-            login.PW.SendKeys("123456789ABCDHELLO");
-            System.Threading.Thread.Sleep(1000);
+                login.PW.SendKeys("123456789ABCDHELLO");
+                System.Threading.Thread.Sleep(1000);
 
-            login.loginButton.Click();
-            System.Threading.Thread.Sleep(1000);
+                login.loginButton.Click();
+                System.Threading.Thread.Sleep(1000);
 
-            log.Info("Loggin Succesfull");
-            System.Threading.Thread.Sleep(1000);
+                log.Info("Loggin Succesfull");
+                System.Threading.Thread.Sleep(1000);
 
-            Assert.AreEqual(driver.Url, "https://www.instagram.com/accounts/onetap/?next=%2F");
+
+                String actualUrl = "https://www.instagram.com/accounts/onetap/?next=%2F";
+                String expectedUrl = driver.Url;
+                Assert.AreEqual(actualUrl, expectedUrl);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
         }
 

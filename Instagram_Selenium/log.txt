@@ -373,3 +373,133 @@
 2021-09-22 13:02:59,894 INFO Exiting setup
 2021-09-22 13:03:05,319 INFO Logging in Succesfull
 2021-09-22 13:03:33,074 INFO Mail Sent Succesfully
+2021-09-22 15:49:08,883 INFO Entering Setup
+2021-09-22 15:49:15,951 DEBUG navigating to url
+2021-09-22 15:49:15,951 INFO Exiting setup
+2021-09-22 15:49:21,238 INFO Logging in Succesfull
+2021-09-22 15:49:49,056 INFO Mail Sent Succesfully
+2021-09-23 15:51:13,489 INFO Entering Setup
+2021-09-23 15:51:19,177 DEBUG navigating to url
+2021-09-23 15:51:19,178 INFO Exiting setup
+2021-09-23 15:51:21,797 INFO Logging in Succesfull
+2021-09-23 16:09:45,637 INFO Entering Setup
+2021-09-23 16:09:50,014 DEBUG navigating to url
+2021-09-23 16:09:50,015 INFO Exiting setup
+2021-09-23 16:10:41,443 INFO Entering Setup
+2021-09-23 16:10:46,255 DEBUG navigating to url
+2021-09-23 16:10:46,255 INFO Exiting setup
+2021-09-23 16:12:33,990 INFO Entering Setup
+2021-09-23 16:12:38,893 DEBUG navigating to url
+2021-09-23 16:12:38,894 INFO Exiting setup
+2021-09-23 16:12:44,177 INFO Logging in Succesfull
+2021-09-23 16:13:12,435 INFO Mail Sent Succesfully
+2021-09-23 16:54:35,835 INFO Entering Setup
+2021-09-23 16:54:41,376 DEBUG navigating to url
+2021-09-23 16:54:41,376 INFO Exiting setup
+2021-09-23 16:54:44,078 INFO Logging in Succesfull
+2021-09-23 16:55:11,402 INFO Entering Setup
+2021-09-23 16:55:16,031 DEBUG navigating to url
+2021-09-23 16:55:16,031 INFO Exiting setup
+2021-09-23 16:55:18,599 INFO Logging in Succesfull
+2021-09-23 17:03:27,099 INFO Entering Setup
+2021-09-23 17:03:31,853 DEBUG navigating to url
+2021-09-23 17:03:31,854 INFO Exiting setup
+2021-09-23 17:03:34,997 INFO Logging in Succesfull
+2021-09-24 13:36:28,806 INFO Entering Setup
+2021-09-24 13:36:34,380 DEBUG navigating to url
+2021-09-24 13:36:34,383 INFO Exiting setup
+2021-09-24 13:36:36,969 INFO Logging in Succesfull
+2021-09-24 13:38:19,362 INFO Entering Setup
+2021-09-24 13:38:23,663 DEBUG navigating to url
+2021-09-24 13:38:23,665 INFO Exiting setup
+2021-09-24 13:38:26,339 INFO Logging in Succesfull
+2021-09-24 16:21:28,255 INFO Entering Setup
+2021-09-24 16:21:33,339 DEBUG navigating to url
+2021-09-24 16:21:33,340 INFO Exiting setup
+2021-09-24 16:21:38,945 INFO Logging in Succesfull
+2021-09-24 16:22:07,158 INFO Mail Sent Succesfully
+2021-09-24 16:34:21,940 INFO Entering Setup
+2021-09-24 16:34:26,962 DEBUG navigating to url
+2021-09-24 16:34:26,963 INFO Exiting setup
+2021-09-24 16:48:51,753 INFO Entering Setup
+2021-09-24 16:48:56,196 DEBUG navigating to url
+2021-09-24 16:48:56,197 INFO Exiting setup
+2021-09-24 16:49:32,627 INFO Entering Setup
+2021-09-24 16:49:36,942 DEBUG navigating to url
+2021-09-24 16:49:36,943 INFO Exiting setup
+2021-09-24 16:51:18,754 INFO Entering Setup
+2021-09-24 16:51:22,585 DEBUG navigating to url
+2021-09-24 16:51:22,585 INFO Exiting setup
+2021-09-24 16:53:31,604 INFO Entering Setup
+2021-09-24 16:53:35,755 DEBUG navigating to url
+2021-09-24 16:53:35,756 INFO Exiting setup
+2021-09-24 16:55:57,874 INFO Entering Setup
+2021-09-24 16:56:02,695 DEBUG navigating to url
+2021-09-24 16:56:02,696 INFO Exiting setup
+2021-09-24 16:56:38,395 INFO Entering Setup
+2021-09-24 16:56:42,866 DEBUG navigating to url
+2021-09-24 16:56:42,867 INFO Exiting setup
+2021-09-24 16:56:48,198 INFO Logging in Succesfull
+2021-09-24 16:57:17,736 INFO Mail Sent Succesfully
+2021-09-25 11:40:44,209 INFO Entering Setup
+2021-09-25 11:40:48,986 DEBUG navigating to url
+2021-09-25 11:40:48,986 INFO Exiting setup
+2021-09-25 11:40:53,117 INFO Loggin Succesfull
+2021-09-25 11:41:32,799 INFO Entering Setup
+2021-09-25 11:41:36,662 DEBUG navigating to url
+2021-09-25 11:41:36,663 INFO Exiting setup
+2021-09-25 11:41:40,754 INFO Loggin Succesfull
+2021-09-25 11:42:22,424 INFO Entering Setup
+2021-09-25 11:42:26,519 DEBUG navigating to url
+2021-09-25 11:42:26,520 INFO Exiting setup
+2021-09-25 11:42:31,074 INFO Loggin Succesfull
+2021-09-25 11:44:32,799 INFO Entering Setup
+2021-09-25 11:44:36,780 DEBUG navigating to url
+2021-09-25 11:44:36,781 INFO Exiting setup
+2021-09-25 11:45:03,691 INFO Entering Setup
+2021-09-25 11:45:08,816 DEBUG navigating to url
+2021-09-25 11:45:08,817 INFO Exiting setup
+2021-09-25 11:45:14,057 INFO Logging in Succesfull
+2021-09-25 11:45:40,666 INFO Mail Sent Succesfully
+2021-09-25 11:54:04,535 INFO Entering Setup
+2021-09-25 11:54:09,157 DEBUG navigating to url
+2021-09-25 11:54:09,158 INFO Exiting setup
+2021-09-25 11:54:33,907 INFO Entering Setup
+2021-09-25 11:54:37,949 DEBUG navigating to url
+2021-09-25 11:54:37,950 INFO Exiting setup
+2021-09-25 11:55:05,139 INFO Profile Photo Uploaded Successfully
+2021-09-25 12:01:56,733 INFO Entering Setup
+2021-09-25 12:02:01,513 DEBUG navigating to url
+2021-09-25 12:02:01,513 INFO Exiting setup
+2021-09-25 12:02:06,825 INFO Logging in Succesfull
+2021-09-25 12:02:31,885 INFO Mail Sent Succesfully
+2021-09-25 12:19:52,842 INFO Entering Setup
+2021-09-25 12:19:57,711 INFO navigating to url
+2021-09-25 12:19:57,712 INFO Exiting setup
+2021-09-25 12:20:02,896 INFO Logging in Succesfull
+2021-09-25 12:20:43,828 INFO Entering Setup
+2021-09-25 12:20:48,170 INFO navigating to url
+2021-09-25 12:20:48,171 INFO Exiting setup
+2021-09-25 12:20:53,519 INFO Logging in Succesfull
+2021-09-25 12:21:30,834 INFO Entering Setup
+2021-09-25 12:21:35,842 INFO navigating to url
+2021-09-25 12:21:35,843 INFO Exiting setup
+2021-09-25 12:21:41,135 INFO Logging in Succesfull
+2021-09-25 12:22:23,427 INFO Entering Setup
+2021-09-25 12:22:28,717 INFO navigating to url
+2021-09-25 12:22:28,717 INFO Exiting setup
+2021-09-25 12:22:33,826 INFO Logging in Succesfull
+2021-09-25 12:23:11,968 INFO Entering Setup
+2021-09-25 12:23:16,527 INFO navigating to url
+2021-09-25 12:23:16,528 INFO Exiting setup
+2021-09-25 12:23:22,032 INFO Logging in Succesfull
+2021-09-25 12:24:09,766 INFO Entering Setup
+2021-09-25 12:24:14,392 INFO navigating to url
+2021-09-25 12:24:14,393 INFO Exiting setup
+2021-09-25 12:24:19,545 INFO Logging in Succesfull
+2021-09-25 12:24:44,684 INFO Mail Sent Succesfully
+2021-09-27 10:52:51,588 INFO Entering Setup
+2021-09-27 10:52:57,027 INFO navigating to url
+2021-09-27 10:52:57,028 INFO Exiting setup
+2021-09-27 10:53:02,369 INFO Logging in Succesfull
+2021-09-27 10:53:31,250 INFO Mail Sent Succesfully

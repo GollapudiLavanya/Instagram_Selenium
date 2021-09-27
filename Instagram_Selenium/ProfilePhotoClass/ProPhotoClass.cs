@@ -23,44 +23,54 @@ namespace Instagram_Selenium.ProfilePhotoClass
 
         public static void photoUpload(IWebDriver driver)
         {
-            ProfilePhoto pic = new ProfilePhoto(driver);
+            try
+            {
 
-            
-            pic.UN.SendKeys("ucs17139@rmd.ac.in");
-            System.Threading.Thread.Sleep(1000);
+                ProfilePhoto pic = new ProfilePhoto(driver);
 
-            pic.PW.SendKeys("123456789ABCDHELLO");
-            System.Threading.Thread.Sleep(1000);
 
-            pic.loginButton.Click();
-            System.Threading.Thread.Sleep(1000);
+                pic.UN.SendKeys("ucs17139@rmd.ac.in");
+                System.Threading.Thread.Sleep(1000);
 
-            pic.profileIcon.Click();
-            System.Threading.Thread.Sleep(2000);
+                pic.PW.SendKeys("123456789ABCDHELLO");
+                System.Threading.Thread.Sleep(1000);
 
-            pic.ProfileButton.Click();
-            System.Threading.Thread.Sleep(2000);
+                pic.loginButton.Click();
+                System.Threading.Thread.Sleep(1000);
 
-            pic.PhotoUploadIcon.Click();
-            System.Threading.Thread.Sleep(2000);
+                pic.profileIcon.Click();
+                System.Threading.Thread.Sleep(2000);
 
-            pic.ChangeProfilePhoto.Click();
-            System.Threading.Thread.Sleep(2000);
+                pic.ProfileButton.Click();
+                System.Threading.Thread.Sleep(2000);
 
-            pic.UploadPhoto.Click();
-            System.Threading.Thread.Sleep(2000);
+                pic.PhotoUploadIcon.Click();
+                System.Threading.Thread.Sleep(2000);
 
-            AutoItX3 autoit = new AutoItX3();
-            autoit.WinActivate("Open");
-            autoit.Send(@"C:\Users\lavanya.g\Pictures\Saved Pictures\Flower.jpg");
-            Thread.Sleep(3000);
-            autoit.Send("{ENTER}");
-            Thread.Sleep(5000);
+                pic.ChangeProfilePhoto.Click();
+                System.Threading.Thread.Sleep(2000);
 
-            log.Info("Profile Photo Uploaded Successfully");
-            System.Threading.Thread.Sleep(1000);
+                pic.UploadPhoto.Click();
+                System.Threading.Thread.Sleep(2000);
 
-            //Assert.AreEqual(pic.UploadPhoto,@"C:\Users\lavanya.g\Pictures\Saved Pictures\Flower.jpg");
+                AutoItX3 autoit = new AutoItX3();
+                autoit.WinActivate("Open");
+                autoit.Send(@"C:\Users\lavanya.g\Pictures\Saved Pictures\Flower.jpg");
+                Thread.Sleep(3000);
+                autoit.Send("{ENTER}");
+                Thread.Sleep(5000);
+
+                log.Info("Profile Photo Uploaded Successfully");
+                System.Threading.Thread.Sleep(1000);
+
+                var changedprofile = "Profile photo added.";
+                Assert.IsTrue(driver.FindElement(By.XPath("//*[@class='gxNyb']")).Text.Contains(changedprofile));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
         }
 
     }

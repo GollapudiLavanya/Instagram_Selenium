@@ -13,6 +13,7 @@ using log4net;
 using log4net.Repository;
 using System.IO;
 using System.Reflection;
+using System.Configuration;
 
 namespace Instagram_Selenium.Base
 {
@@ -41,8 +42,12 @@ namespace Instagram_Selenium.Base
 
             driver = new ChromeDriver(chromeOptions);
             driver.Url = "https://www.instagram.com/";
-            driver.Url = "https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin";
-            log.Debug("navigating to url");
+            driver.Url = "https://accounts.google.com/AccountChooser/identifier?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser";
+            log.Info("navigating to url");
+
+            //string fromemail = ConfigurationManager.AppSettings.Get("Email");
+                
+            //string Password=ConfigurationManager.AppSettings.Get("pwd");
 
             log.Info("Exiting setup");
 

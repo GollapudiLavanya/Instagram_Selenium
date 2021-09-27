@@ -16,7 +16,7 @@ namespace Instagram_Selenium
         ExtentReports report = ReportCreation.report();
         ExtentTest test;
         [Test]
-        public void InputEmailAndPassword()
+        public void LoginToInstagramPage()
         {
             test = report.CreateTest("Tests");
             test.Log(Status.Info, "INSTAGRAMAUTOMATION");

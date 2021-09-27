@@ -1,4 +1,10 @@
-﻿using OpenQA.Selenium;
+﻿/*
+ * project = GmailUsingPageFactoryAndAutoIT
+ * Author = Lavanya Gollapudi
+ * Created Date = 21/09/2021
+ */
+
+using OpenQA.Selenium;
 using SeleniumExtras.PageObjects;
 using System;
 using System.Collections.Generic;
@@ -14,7 +20,7 @@ namespace Instagram_Selenium.GmailPaths
             PageFactory.InitElements(driver, this);
         }
 
-        [FindsBy(How = How.Name, Using = "identifier")]
+        [FindsBy(How = How.Id, Using = "identifierId")]
         [CacheLookup]
         public IWebElement Email;
 
